@@ -1,0 +1,186 @@
+body {
+    font-family: 'Bitter', serif;
+}
+main {
+    padding: 3% 3% 0 3%;
+}
+/* ESTILOS DE CARROUSEL */
+#carouselExampleCaptions {
+    display: flex;
+    height: 550px;
+}
+.carousel-caption {
+    position: absolute; 
+    right: 15%;
+    top: 400px; /* Cambiar bottom por top y los píxeles que necesite */
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ESTILOS DE ULTIMOS LANZAMIENTOS */
+.contenidoartistasrec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 290px;
+    padding: 0.5em;
+    width: 95%;
+    border: 1px solid black;
+    /* border-radius: 0.5em; */
+    background: rgb(2,0,36);
+    background: linear-gradient(343deg, rgba(2,0,36,1) 0%, rgba(202,202,232,1) 42%, rgba(0,212,255,1) 100%);
+
+}
+.contenidoartistasrec img{
+    height: 60%;
+    width: 60%;
+}
+.contenidoartistasrec h5{
+    text-align: center;
+    padding: 0 0.5em;
+    font-size: 24px;
+    color: lightblue;
+    transition: all 0.5s ease;
+    margin-top: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+}
+.contenidoartistasrec p {
+    text-align: center;
+    padding: 0 0.5em;
+    font-size: 18px;
+    color: black;
+    transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+}
+
+/* ESTILOS DE ARTISTA DEL MES Y EVENTO DEL MES */
+.contenidoartistadelmes {
+   
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 95%;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    box-sizing: 600px;
+}
+.eventodelmes {
+   
+    display: flex;
+    /* position: relative; */
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 95%;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.contenidoartistadelmes img {
+    
+    width: 95%;
+    height: auto;
+    padding: 0.5em;
+    transition: all 0.5s ease;
+}
+.eventodelmes img {
+    
+    width: 95%;
+    height: auto;
+    padding: 0.5em;
+    transition: all 0.5s ease;
+}
+.contenidoartistadelmes h4 {
+    text-align: center;
+    padding: 0 0.5em;
+    font-size: 24px;
+    color: lightskyblue;
+    transition: all 0.5s ease;
+
+}
+.eventodelmes h5 {
+    text-align: center;
+    padding: 0 0.5em;
+    font-size: 24px;
+    color: lightskyblue;
+    transition: all 0.5s ease;
+
+}
+.contenidoartistadelmes p {
+    text-align: center;
+    padding: 0 0.5em;
+    font-size: 18px;
+    color: black;
+    transition: all 0.5s ease;
+
+}
+.eventodelmes p {
+    text-align: center;
+    padding: 0 0.5em;
+    font-size: 18px;
+    color: black;
+    transition: all 0.5s ease;
+
+}
+
+/* ESTILOS ENTREVISTAS */
+.entrevistas {
+   
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    /* background: #343434 url(img/fondoamp.jpg); */
+}
+.entrevistas img {
+    
+    width: 95%;
+    padding: 0.5em;
+    transform: scale(1);
+    transition: all 0.5s ease;
+    border-radius: 10px;
+
+}
+.entrevistas h5{
+
+    text-align: center;
+    padding: 0 0.5em;
+    font-size: 24px;
+    color: lightskyblue;
+    transition: all 0.5s ease;
+
+}
+.entrevistas p {
+    text-align: center;
+    padding: 0 0.5em;
+    font-size: 18px;
+    color: black;
+    transition: all 0.5s ease;
+
+}
+
+
+/* ESTILOS FOOTER */
+.footer {
+    background-color:#ccc;
+    clear: both;
+    color: #333;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+

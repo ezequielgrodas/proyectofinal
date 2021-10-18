@@ -1,0 +1,319 @@
+body {
+    font-family: 'Bitter', serif;
+}
+main {
+    padding: 1% 3% 3% 3%;
+}
+/* ESTILOS FOOTER */
+.footer {
+    background-color:#ccc;
+    clear: both;
+    color: #333;
+    padding: 3em 0;
+    margin-top: 1px;
+    text-align: center;
+}
+/* ESTILOS DIVISION */
+.division {
+    display: block;
+    border-top: 1px solid #78787b;
+    width: 20%;
+    margin: 8px auto;
+    
+    transition: all .6s ease-in-out;
+}
+.division:hover{
+    width: 60%;
+    transition: all .6s ease-in-out;
+}
+
+/* ESTILOS LOGO */
+.logoLucrecia{
+    width: 5%;
+    height: 5%; 
+    margin-right: 2px;
+}
+
+/* INICIO */
+/* ESTILOS DE CARROUSEL */
+#carouselExampleCaptions {
+    display: flex;
+    height: 550px;
+}
+.carousel-caption {
+    position: absolute; 
+    right: 15%;
+    top: 400px; /* Cambiar bottom por top y los píxeles que necesite */
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* ESTILOS REDES */
+#redes{
+    display: flex;
+}
+#redes ,ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+    padding: 0;
+}
+#redes ,li{
+    transition: all .3s ease-in-out;
+}
+
+.bi{
+    color: #333;
+}
+.bi:hover{
+    color: #78787b;
+    transition: all .3s ease-in-out;
+}
+
+/* ESTILOS DE ULTIMOS LANZAMIENTOS */
+.ultimoslanzamientos{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+
+}
+
+.lanzamientos-container{
+    padding: 3%;
+}
+
+.lanzamientoRec{
+    
+    height: 300px;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: static;
+    background: blanchedalmond;
+
+    transition: all .6s ease-in-out;
+
+}
+.lanzamientoRec img{
+    object-fit: scale-down;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+    transition: all .6s ease-in-out;
+
+}
+.infoLanzRec {
+    border: 0.1em solid black;
+    text-align: center;
+    background: whitesmoke;
+    
+}
+.infoLanzRec p{
+    font-size: small;
+}
+.lanzamientoRec:hover{
+    cursor: pointer;
+}
+.lanzamientoRec:hover .division{
+    width: 60%;
+}
+
+/* ESTILOS ULTIMAS NOVEDADES */
+.ultimasnovedades{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: static;
+    margin: 3%;
+    
+    
+}
+.contenidonovedades{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: static;
+    height: 320px;
+    padding: 0.5em;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: blanchedalmond;
+
+    transition: all .6s ease-in-out;
+    
+}
+
+.contenidonovedades img{
+    width: auto;
+    height: 60%;
+    margin: auto;
+
+}
+.novedad {
+    padding: 2% 2% 2% 2%;
+    border: 1px solid black;
+
+    text-align: center;
+}
+.novedad em{
+    color: black;
+}
+.novedad p{
+    font-size: small;
+    color: black;
+
+}
+.contenidonovedades:hover{
+    cursor: pointer;
+}
+.contenidonovedades:hover .division{
+    width: 60%;
+}
+
+
+/* ESTILOS EVENTO DEL MES */
+.eventos-container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    
+    transition: all .6s ease-in-out;
+}
+.contenidoeventos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    
+    transition: all .6s ease-in-out;
+    
+}
+.contenidoeventos img{
+    width: 25%;
+    height: auto;
+}
+.infoevento {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    border: 1px solid black;
+    padding: 3%;
+}
+.infoevento h4 , h5{
+    font-style: italic;
+}
+.infoevento p{
+    font-size: medium;
+    margin: 2px 0 2px 0;
+}
+.contenidoeventos:hover{
+    cursor: pointer;
+}
+.contenidoeventos:hover .division{
+    width: 60%;
+}
+
+/* NOVEDADES */
+.bannerNovedades{
+    width: auto;
+    height: 50px;
+    padding: 0.5%;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #343434 url(img/fondonovedades.svg);
+
+}
+.bannerNovedades h5{
+    border-bottom: 0.5px solid black;
+    font-weight: bold;
+}
+
+.novedades-container{
+    padding: 3%;
+}
+
+.cajaNovedad{
+    
+    height: 300px;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: static;
+    background: blanchedalmond;
+
+}
+.cajaNovedad img{
+    object-fit: cover;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+.infoNovedad {
+    border: 0.1em solid black;
+    text-align: center;
+    background: whitesmoke;
+    
+}
+.infoNovedad p{
+    font-size: small;
+}
+
+.pager {
+    position: relative;
+    background: #f6f6f6;
+    height: auto;
+    padding: 1%;
+    margin-bottom: 3%;
+}
+.pager ul {
+    padding-bottom: 0;
+    text-align: center;
+    margin: 0;
+    font-size: .8em;
+}
+.pager a {
+    text-align: center;
+    text-decoration: none;
+    color: #343434;
+    opacity: .6;
+    transition: .2s ease-in-out;
+}
+.pager .sig, .pager .prev {
+    position: absolute;
+    top: 1%;
+    padding-top: 1%;
+}
+.pager .prev {
+    float: left;
+    left: 1%;
+    
+}
+
+.pager .sig {
+    float: right;
+    right: 1%;
+    
+}
+
+
